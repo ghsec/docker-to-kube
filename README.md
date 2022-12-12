@@ -15,7 +15,8 @@ command : ```kubectl edit -n kubeshark svc kubeshark-api-server```
 
 config example:
 
-```apiVersion: v1
+```
+apiVersion: v1
 kind: Service
 metadata:
 creationTimestamp: "2022-11-27T07:37:32Z"
