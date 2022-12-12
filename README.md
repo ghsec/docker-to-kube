@@ -47,5 +47,5 @@ clusterIPs:
     sessionAffinity: None
     type: NodePort
     status:
-    loadBalancer: {}`
+    loadBalancer: {}
 ```
