@@ -53,11 +53,15 @@ clusterIPs:
 
 
 ### Expose external ip address
-Create a Service object that exposes the deployment:
+- Create a Service object that exposes the deployment:
 
 ```
 kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
 ```
 
+- Display information about the Service:
 
+```
+kubectl get services my-service
+```
 
