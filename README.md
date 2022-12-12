@@ -65,3 +65,14 @@ kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
 kubectl get services my-service
 ```
 
+- Display detailed information about the Service:
+
+```
+kubectl describe services my-service
+```
+
+- To delete the Service, enter this command:
+
+```
+kubectl delete deployment hello-world
+```
