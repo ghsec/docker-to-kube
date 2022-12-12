@@ -50,3 +50,14 @@ clusterIPs:
     status:
     loadBalancer: {}
 ```
+
+
+### Expose external ip address
+Create a Service object that exposes the deployment:
+
+```
+kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
+```
+
+
+
